@@ -7,7 +7,7 @@
 //  http://bynomial.com/blog/?p=24
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 
 @interface UIView (Position)
