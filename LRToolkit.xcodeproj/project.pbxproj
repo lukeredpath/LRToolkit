@@ -38,6 +38,10 @@
 		A387AD6611CE9704000865EE /* UIColor+SharedPallette.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD6411CE9704000865EE /* UIColor+SharedPallette.h */; };
 		A387AD6711CE9704000865EE /* UIColor+SharedPallette.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD6511CE9704000865EE /* UIColor+SharedPallette.m */; };
 		A387AD7911CE991E000865EE /* LRFoundationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD7811CE991E000865EE /* LRFoundationMacros.h */; };
+		A387ADB711CE9A99000865EE /* LRTableViewCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = A387ADB511CE9A99000865EE /* LRTableViewCollection.h */; };
+		A387ADB811CE9A99000865EE /* LRTableViewCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = A387ADB611CE9A99000865EE /* LRTableViewCollection.m */; };
+		A387ADC411CE9AE0000865EE /* LRPopoverManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A387ADC211CE9AE0000865EE /* LRPopoverManager.h */; };
+		A387ADC511CE9AE0000865EE /* LRPopoverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A387ADC311CE9AE0000865EE /* LRPopoverManager.m */; };
 		AA747D9F0F9514B9006C5449 /* LRToolkit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LRToolkit_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -74,6 +78,10 @@
 		A387AD6411CE9704000865EE /* UIColor+SharedPallette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SharedPallette.h"; sourceTree = "<group>"; };
 		A387AD6511CE9704000865EE /* UIColor+SharedPallette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SharedPallette.m"; sourceTree = "<group>"; };
 		A387AD7811CE991E000865EE /* LRFoundationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRFoundationMacros.h; sourceTree = "<group>"; };
+		A387ADB511CE9A99000865EE /* LRTableViewCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRTableViewCollection.h; sourceTree = "<group>"; };
+		A387ADB611CE9A99000865EE /* LRTableViewCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRTableViewCollection.m; sourceTree = "<group>"; };
+		A387ADC211CE9AE0000865EE /* LRPopoverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPopoverManager.h; sourceTree = "<group>"; };
+		A387ADC311CE9AE0000865EE /* LRPopoverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRPopoverManager.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* LRToolkit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRToolkit_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libLRToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLRToolkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +156,9 @@
 		A35ED82B11CE802300055268 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				A387ADC011CE9AC6000865EE /* iPad Only */,
+				A387ADB511CE9A99000865EE /* LRTableViewCollection.h */,
+				A387ADB611CE9A99000865EE /* LRTableViewCollection.m */,
 				A387AD1411CE91FD000865EE /* Categories */,
 				A387AD4E11CE9613000865EE /* LRUIColorPallette.h */,
 				A387AD4F11CE9613000865EE /* LRUIColorPallette.m */,
@@ -204,6 +215,15 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
+		A387ADC011CE9AC6000865EE /* iPad Only */ = {
+			isa = PBXGroup;
+			children = (
+				A387ADC211CE9AE0000865EE /* LRPopoverManager.h */,
+				A387ADC311CE9AE0000865EE /* LRPopoverManager.m */,
+			);
+			name = "iPad Only";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -228,6 +248,8 @@
 				A387AD5011CE9613000865EE /* LRUIColorPallette.h in Headers */,
 				A387AD6611CE9704000865EE /* UIColor+SharedPallette.h in Headers */,
 				A387AD7911CE991E000865EE /* LRFoundationMacros.h in Headers */,
+				A387ADB711CE9A99000865EE /* LRTableViewCollection.h in Headers */,
+				A387ADC411CE9AE0000865EE /* LRPopoverManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +311,8 @@
 				A387AD4D11CE927B000865EE /* NSString+FileSize.m in Sources */,
 				A387AD5111CE9613000865EE /* LRUIColorPallette.m in Sources */,
 				A387AD6711CE9704000865EE /* UIColor+SharedPallette.m in Sources */,
+				A387ADB811CE9A99000865EE /* LRTableViewCollection.m in Sources */,
+				A387ADC511CE9AE0000865EE /* LRPopoverManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
