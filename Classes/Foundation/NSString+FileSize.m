@@ -1,16 +1,17 @@
 //
 //  NSString+FileSize.m
-//  Spark
+//  LRToolkit
 //
 //  Created by Luke Redpath on 22/05/2010.
-//  Copyright 2010 LJR Software Limited. All rights reserved.
+//
+//  Taken from http://snippets.dzone.com/posts/show/3038
 //
 
 #import "NSString+FileSize.h"
 
 @implementation NSString (FileSize)
 
-+ (NSString *)fileSizeStringFromByes:(int)bytes;
++ (NSString *)fileSizeStringFromBytes:(int)bytes;
 {
   float floatSize = (float)bytes;
   

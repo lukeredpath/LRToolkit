@@ -1,6 +1,6 @@
 //
 //  NSURL+StringFormat.h
-//  Camppad
+//  LRToolkit
 //
 //  Created by Luke Redpath on 01/05/2010.
 //  Copyright 2010 LJR Software Limited. All rights reserved.

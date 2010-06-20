@@ -1,9 +1,9 @@
 //
 //  NSArray+Indexing.m
-//  TellYouGov
+//  LRToolkit
 //
-//  Created by James Adam on 16/02/2010.
-//  Copyright 2010 Lazyatom Limited. All rights reserved.
+//  Created by Luke Redpath on 16/02/2010.
+//  Copyright 2010 LJR Software Limited. All rights reserved.
 //
 
 #import "NSArray+Indexing.h"

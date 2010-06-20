@@ -1,9 +1,10 @@
 //
 //  UIView+Position.m
-//  Spark
+//  LRToolkit
 //
-//  Created by Luke Redpath on 25/05/2010.
-//  Copyright 2010 LJR Software Limited. All rights reserved.
+//  Created by Tyler Neylon on 3/19/10.
+//  Copyleft 2010 Bynomial.
+//  http://bynomial.com/blog/?p=24
 //
 
 #import "UIView+Position.h"

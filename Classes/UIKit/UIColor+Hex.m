@@ -1,19 +1,16 @@
 //
 //  UIColor+Hex.m
-//  TellYouGov
+//  LRToolkit
 //
 //  Created by Luke Redpath on 27/04/2010.
 //  Copyright 2010 LJR Software Limited. All rights reserved.
 //
+//  Based on code from
+//  http://pessoal.org/blog/2008/11/27/creating-uicolor-objects-from-hex-values/
 
 #import "UIColor+Hex.h"
 
-
 @implementation UIColor (Hex)
-
-/**
- * courtesy of http://pessoal.org/blog/2008/11/27/creating-uicolor-objects-from-hex-values/
- */
 
 + (UIColor *)colorWithHexValue:(int)rgbValue;
 {

@@ -1,9 +1,10 @@
 //
 //  NSString+FileSize.h
-//  Spark
+//  LRToolkit
 //
 //  Created by Luke Redpath on 22/05/2010.
-//  Copyright 2010 LJR Software Limited. All rights reserved.
+//
+//  Taken from http://snippets.dzone.com/posts/show/3038
 //
 
 #import <Foundation/Foundation.h>
@@ -11,6 +12,6 @@
 
 @interface NSString (FileSize)
 
-+ (NSString *)fileSizeStringFromByes:(int)bytes;
++ (NSString *)fileSizeStringFromBytes:(int)bytes;
 
 @end
