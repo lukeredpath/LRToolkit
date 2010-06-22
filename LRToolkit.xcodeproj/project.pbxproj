@@ -42,6 +42,41 @@
 		A387ADB811CE9A99000865EE /* LRTableViewCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = A387ADB611CE9A99000865EE /* LRTableViewCollection.m */; };
 		A387ADC411CE9AE0000865EE /* LRPopoverManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A387ADC211CE9AE0000865EE /* LRPopoverManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A387ADC511CE9AE0000865EE /* LRPopoverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A387ADC311CE9AE0000865EE /* LRPopoverManager.m */; };
+		A387B69111D11054000865EE /* LRToolkit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LRToolkit_Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B69211D11054000865EE /* UIImage+Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD1911CE9215000865EE /* UIImage+Alpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B69311D11054000865EE /* UIImage+RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD1B11CE9215000865EE /* UIImage+RoundedCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B69411D11054000865EE /* UIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD1D11CE9215000865EE /* UIImage+Resize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B69511D11054000865EE /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD2511CE9244000865EE /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B69611D11054000865EE /* UIImageView+LRAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD2911CE9253000865EE /* UIImageView+LRAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B69711D11054000865EE /* UIView+Position.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD2B11CE9253000865EE /* UIView+Position.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B69811D11054000865EE /* UIToolbar+LRAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD2D11CE9253000865EE /* UIToolbar+LRAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B69911D11054000865EE /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD3611CE927B000865EE /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B69A11D11054000865EE /* NSString+Hashing.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD3811CE927B000865EE /* NSString+Hashing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B69B11D11054000865EE /* NSArray+Indexing.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD3A11CE927B000865EE /* NSArray+Indexing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B69C11D11054000865EE /* NSURL+StringFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD3C11CE927B000865EE /* NSURL+StringFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B69D11D11054000865EE /* NSString+GHTimeInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD3E11CE927B000865EE /* NSString+GHTimeInterval.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B69E11D11054000865EE /* NSString+FileSize.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD4011CE927B000865EE /* NSString+FileSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B69F11D11054000865EE /* LRUIColorPallette.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD4E11CE9613000865EE /* LRUIColorPallette.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B6A011D11054000865EE /* UIColor+SharedPallette.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD6411CE9704000865EE /* UIColor+SharedPallette.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B6A111D11054000865EE /* LRFoundationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD7811CE991E000865EE /* LRFoundationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B6A211D11054000865EE /* LRTableViewCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = A387ADB511CE9A99000865EE /* LRTableViewCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B6A511D11054000865EE /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD1A11CE9215000865EE /* UIImage+Alpha.m */; };
+		A387B6A611D11054000865EE /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD1C11CE9215000865EE /* UIImage+RoundedCorner.m */; };
+		A387B6A711D11054000865EE /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD1E11CE9215000865EE /* UIImage+Resize.m */; };
+		A387B6A811D11054000865EE /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD2611CE9244000865EE /* UIColor+Hex.m */; };
+		A387B6A911D11054000865EE /* UIImageView+LRAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD2A11CE9253000865EE /* UIImageView+LRAdditions.m */; };
+		A387B6AA11D11054000865EE /* UIView+Position.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD2C11CE9253000865EE /* UIView+Position.m */; };
+		A387B6AB11D11054000865EE /* UIToolbar+LRAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD2E11CE9253000865EE /* UIToolbar+LRAdditions.m */; };
+		A387B6AC11D11054000865EE /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD3711CE927B000865EE /* NSData+Base64.m */; };
+		A387B6AD11D11054000865EE /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD3911CE927B000865EE /* NSString+Hashing.m */; };
+		A387B6AE11D11054000865EE /* NSArray+Indexing.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD3B11CE927B000865EE /* NSArray+Indexing.m */; };
+		A387B6AF11D11054000865EE /* NSURL+StringFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD3D11CE927B000865EE /* NSURL+StringFormat.m */; };
+		A387B6B011D11054000865EE /* NSString+GHTimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD3F11CE927B000865EE /* NSString+GHTimeInterval.m */; };
+		A387B6B111D11054000865EE /* NSString+FileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD4111CE927B000865EE /* NSString+FileSize.m */; };
+		A387B6B211D11054000865EE /* LRUIColorPallette.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD4F11CE9613000865EE /* LRUIColorPallette.m */; };
+		A387B6B311D11054000865EE /* UIColor+SharedPallette.m in Sources */ = {isa = PBXBuildFile; fileRef = A387AD6511CE9704000865EE /* UIColor+SharedPallette.m */; };
+		A387B6B411D11054000865EE /* LRTableViewCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = A387ADB611CE9A99000865EE /* LRTableViewCollection.m */; };
+		A387B6B711D11054000865EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		AA747D9F0F9514B9006C5449 /* LRToolkit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LRToolkit_Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -82,12 +117,21 @@
 		A387ADB611CE9A99000865EE /* LRTableViewCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRTableViewCollection.m; sourceTree = "<group>"; };
 		A387ADC211CE9AE0000865EE /* LRPopoverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPopoverManager.h; sourceTree = "<group>"; };
 		A387ADC311CE9AE0000865EE /* LRPopoverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRPopoverManager.m; sourceTree = "<group>"; };
+		A387B6BB11D11054000865EE /* libLRToolkit-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libLRToolkit-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA747D9E0F9514B9006C5449 /* LRToolkit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRToolkit_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libLRToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLRToolkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libLRToolkit-iPad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libLRToolkit-iPad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A387B6B611D11054000865EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A387B6B711D11054000865EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2AAC07C0554694100DB518D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -102,7 +146,8 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libLRToolkit.a */,
+				D2AAC07E0554694100DB518D /* libLRToolkit-iPad.a */,
+				A387B6BB11D11054000865EE /* libLRToolkit-iOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,6 +272,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		A387B69011D11054000865EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A387B69111D11054000865EE /* LRToolkit_Prefix.pch in Headers */,
+				A387B69211D11054000865EE /* UIImage+Alpha.h in Headers */,
+				A387B69311D11054000865EE /* UIImage+RoundedCorner.h in Headers */,
+				A387B69411D11054000865EE /* UIImage+Resize.h in Headers */,
+				A387B69511D11054000865EE /* UIColor+Hex.h in Headers */,
+				A387B69611D11054000865EE /* UIImageView+LRAdditions.h in Headers */,
+				A387B69711D11054000865EE /* UIView+Position.h in Headers */,
+				A387B69811D11054000865EE /* UIToolbar+LRAdditions.h in Headers */,
+				A387B69911D11054000865EE /* NSData+Base64.h in Headers */,
+				A387B69A11D11054000865EE /* NSString+Hashing.h in Headers */,
+				A387B69B11D11054000865EE /* NSArray+Indexing.h in Headers */,
+				A387B69C11D11054000865EE /* NSURL+StringFormat.h in Headers */,
+				A387B69D11D11054000865EE /* NSString+GHTimeInterval.h in Headers */,
+				A387B69E11D11054000865EE /* NSString+FileSize.h in Headers */,
+				A387B69F11D11054000865EE /* LRUIColorPallette.h in Headers */,
+				A387B6A011D11054000865EE /* UIColor+SharedPallette.h in Headers */,
+				A387B6A111D11054000865EE /* LRFoundationMacros.h in Headers */,
+				A387B6A211D11054000865EE /* LRTableViewCollection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2AAC07A0554694100DB518D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,9 +326,26 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D2AAC07D0554694100DB518D /* LRToolkit */ = {
+		A387B68F11D11054000865EE /* LRToolkit-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LRToolkit" */;
+			buildConfigurationList = A387B6B811D11054000865EE /* Build configuration list for PBXNativeTarget "LRToolkit-iOS" */;
+			buildPhases = (
+				A387B69011D11054000865EE /* Headers */,
+				A387B6A411D11054000865EE /* Sources */,
+				A387B6B611D11054000865EE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LRToolkit-iOS";
+			productName = LRToolkit;
+			productReference = A387B6BB11D11054000865EE /* libLRToolkit-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2AAC07D0554694100DB518D /* LRToolkit-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LRToolkit-iPad" */;
 			buildPhases = (
 				D2AAC07A0554694100DB518D /* Headers */,
 				D2AAC07B0554694100DB518D /* Sources */,
@@ -268,9 +355,9 @@
 			);
 			dependencies = (
 			);
-			name = LRToolkit;
+			name = "LRToolkit-iPad";
 			productName = LRToolkit;
-			productReference = D2AAC07E0554694100DB518D /* libLRToolkit.a */;
+			productReference = D2AAC07E0554694100DB518D /* libLRToolkit-iPad.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -286,12 +373,36 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AAC07D0554694100DB518D /* LRToolkit */,
+				D2AAC07D0554694100DB518D /* LRToolkit-iPad */,
+				A387B68F11D11054000865EE /* LRToolkit-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A387B6A411D11054000865EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A387B6A511D11054000865EE /* UIImage+Alpha.m in Sources */,
+				A387B6A611D11054000865EE /* UIImage+RoundedCorner.m in Sources */,
+				A387B6A711D11054000865EE /* UIImage+Resize.m in Sources */,
+				A387B6A811D11054000865EE /* UIColor+Hex.m in Sources */,
+				A387B6A911D11054000865EE /* UIImageView+LRAdditions.m in Sources */,
+				A387B6AA11D11054000865EE /* UIView+Position.m in Sources */,
+				A387B6AB11D11054000865EE /* UIToolbar+LRAdditions.m in Sources */,
+				A387B6AC11D11054000865EE /* NSData+Base64.m in Sources */,
+				A387B6AD11D11054000865EE /* NSString+Hashing.m in Sources */,
+				A387B6AE11D11054000865EE /* NSArray+Indexing.m in Sources */,
+				A387B6AF11D11054000865EE /* NSURL+StringFormat.m in Sources */,
+				A387B6B011D11054000865EE /* NSString+GHTimeInterval.m in Sources */,
+				A387B6B111D11054000865EE /* NSString+FileSize.m in Sources */,
+				A387B6B211D11054000865EE /* LRUIColorPallette.m in Sources */,
+				A387B6B311D11054000865EE /* UIColor+SharedPallette.m in Sources */,
+				A387B6B411D11054000865EE /* LRTableViewCollection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2AAC07B0554694100DB518D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,7 +444,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LRToolkit_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = LRToolkit;
+				PRODUCT_NAME = "LRToolkit-iPad";
+				SDKROOT = iphoneos3.2;
 			};
 			name = Debug;
 		};
@@ -347,7 +459,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LRToolkit_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = LRToolkit;
+				PRODUCT_NAME = "LRToolkit-iPad";
+				SDKROOT = iphoneos3.2;
 			};
 			name = Release;
 		};
@@ -361,7 +474,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos4.0;
 			};
 			name = Debug;
 		};
@@ -374,14 +487,48 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		A387B6B911D11054000865EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/LRToolkit.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LRToolkit_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "LRToolkit-iOS";
+			};
+			name = Debug;
+		};
+		A387B6BA11D11054000865EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/LRToolkit.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LRToolkit_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "LRToolkit-iOS";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LRToolkit" */ = {
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LRToolkit-iPad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB921F08733DC00010E9CD /* Debug */,
@@ -395,6 +542,15 @@
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
 				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A387B6B811D11054000865EE /* Build configuration list for PBXNativeTarget "LRToolkit-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A387B6B911D11054000865EE /* Debug */,
+				A387B6BA11D11054000865EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
