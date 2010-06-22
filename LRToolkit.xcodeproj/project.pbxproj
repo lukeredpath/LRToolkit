@@ -42,7 +42,7 @@
 		A387ADB811CE9A99000865EE /* LRTableViewCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = A387ADB611CE9A99000865EE /* LRTableViewCollection.m */; };
 		A387ADC411CE9AE0000865EE /* LRPopoverManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A387ADC211CE9AE0000865EE /* LRPopoverManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A387ADC511CE9AE0000865EE /* LRPopoverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A387ADC311CE9AE0000865EE /* LRPopoverManager.m */; };
-		A387B69111D11054000865EE /* LRToolkit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LRToolkit_Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		A387B69111D11054000865EE /* LRToolkit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LRToolkit_Prefix.pch */; settings = {ATTRIBUTES = (); }; };
 		A387B69211D11054000865EE /* UIImage+Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD1911CE9215000865EE /* UIImage+Alpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A387B69311D11054000865EE /* UIImage+RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD1B11CE9215000865EE /* UIImage+RoundedCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A387B69411D11054000865EE /* UIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = A387AD1D11CE9215000865EE /* UIImage+Resize.h */; settings = {ATTRIBUTES = (Public, ); }; };
